@@ -10,6 +10,10 @@
 
 This GitHub Action will remove all labels of a PR upon trigger. This is specially useful if you execute this action upon pull request merge/close.
 
+## Preview
+
+![preview](./docs/assets/preview.png)
+
 ## Usage
 
 Add a GitHub action.
