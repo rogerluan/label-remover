@@ -3,9 +3,7 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: daily
-      time: "09:00"
-      timezone: Asia/Tokyo
+      interval: weekly
     open-pull-requests-limit: 5
     labels:
       - dependencies
@@ -14,9 +12,7 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: daily
-      time: "09:00"
-      timezone: Asia/Tokyo
+      interval: weekly
     open-pull-requests-limit: 5
     labels:
       - dependencies
