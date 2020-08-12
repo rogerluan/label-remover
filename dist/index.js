@@ -517,7 +517,7 @@ function run() {
         try {
             const githubToken = core.getInput("github_token", { required: true });
             const [owner, repo] = core.getInput("repo").split("/");
-            const issue_number = core.getInput("number") === "" ? github.context.issue.number : parseInt(core.getInput("number"));
+            const issue_number = github.context.issue.number;
             const octokit = github.getOctokit(githubToken);
             yield octokit.issues.removeAllLabels({
                 owner,
