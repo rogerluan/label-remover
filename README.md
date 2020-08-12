@@ -29,8 +29,6 @@ jobs:
       - uses: rogerluan/label-remover@v1
         with:
           github_token: ${{ secrets.github_token }}
-          labels: |
-            approved
 ```
 
 ## License
