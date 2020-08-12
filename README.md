@@ -1,4 +1,4 @@
-# Action Remove Labels
+# Label Remover
 
 <a href="https://github.com/rogerluan/label-remover/actions?query=workflow%3A%22Unit+Tests%22">
   <img alt="Unit tests status" src="https://github.com/rogerluan/label-remover/workflows/Unit%20Tests/badge.svg">
