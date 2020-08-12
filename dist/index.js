@@ -516,13 +516,11 @@ function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const githubToken = core.getInput("github_token", { required: true });
-            const [owner, repo] = core.getInput("repo").split("/");
-            const issue_number = github.context.issue.number;
             const octokit = github.getOctokit(githubToken);
             yield octokit.issues.removeAllLabels({
-                owner,
-                repo,
-                issue_number,
+                owner: github.context.repo.owner,
+                repo: github.context.repo.repo,
+                issue_number: github.context.issue.number,
             });
         }
         catch (e) {
