@@ -1,0 +1,13 @@
+name: Label Remover
+description: Removes all labels from a pull request once it is merged or closed.
+author: Roger Oba
+inputs:
+  github_token:
+    description: A GitHub token.
+    required: true
+runs:
+  using: node12
+  main: dist/index.js
+branding:
+  icon: wind
+  color: purple
