@@ -24,7 +24,7 @@
   "author": "Roger Oba",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@octokit/rest": "^18.0.6",
     "semver": "^7.3.2"
