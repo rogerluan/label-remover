@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: rogerluan/label-remover@v1.0.0
+      - uses: rogerluan/label-remover@v1.0.1
         with:
           github_token: ${{ secrets.github_token }}
 ```
