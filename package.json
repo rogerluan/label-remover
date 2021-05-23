@@ -24,7 +24,7 @@
   "author": "Roger Oba",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.3.0",
     "@actions/github": "^4.0.0",
     "@octokit/rest": "^18.5.2",
     "semver": "^7.3.5"
@@ -36,7 +36,7 @@
     "@types/semver": "^7.3.4",
     "@typescript-eslint/parser": "^4.22.0",
     "@zeit/ncc": "^0.22.3",
-    "eslint": "^7.25.0",
+    "eslint": "^7.27.0",
     "eslint-plugin-github": "^4.1.2",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-prettier": "^3.3.1",
