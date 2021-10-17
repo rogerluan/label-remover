@@ -32,7 +32,7 @@
   "devDependencies": {
     "@octokit/webhooks": "^9.15.0",
     "@types/jest": "^27.0.2",
-    "@types/node": "^16.10.1",
+    "@types/node": "^16.11.1",
     "@types/semver": "^7.3.8",
     "@typescript-eslint/parser": "^4.31.2",
     "@zeit/ncc": "^0.22.3",
