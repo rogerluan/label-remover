@@ -30,7 +30,7 @@
     "semver": "^7.3.5"
   },
   "devDependencies": {
-    "@octokit/webhooks": "^9.20.0",
+    "@octokit/webhooks": "^9.21.0",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.10",
     "@types/semver": "^7.3.9",
